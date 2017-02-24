@@ -44,6 +44,7 @@
             this.btn_locations.TabIndex = 2;
             this.btn_locations.Text = "مناطق پیشفرض";
             this.btn_locations.UseVisualStyleBackColor = true;
+            this.btn_locations.Click += new System.EventHandler(this.btn_locations_Click);
             // 
             // btn_models
             // 
@@ -55,6 +56,7 @@
             this.btn_models.TabIndex = 1;
             this.btn_models.Text = "مدل ها";
             this.btn_models.UseVisualStyleBackColor = true;
+            this.btn_models.Click += new System.EventHandler(this.btn_models_Click);
             // 
             // btn_DeviceBrands
             // 
@@ -68,6 +70,7 @@
             this.btn_DeviceBrands.TabIndex = 0;
             this.btn_DeviceBrands.Text = "برندها";
             this.btn_DeviceBrands.UseVisualStyleBackColor = true;
+            this.btn_DeviceBrands.Click += new System.EventHandler(this.btn_DeviceBrands_Click);
             // 
             // Setting
             // 

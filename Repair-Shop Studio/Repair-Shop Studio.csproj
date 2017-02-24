@@ -52,11 +52,23 @@
     <Compile Include="About.Designer.cs">
       <DependentUpon>About.cs</DependentUpon>
     </Compile>
+    <Compile Include="BrandAccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BrandAccess.Designer.cs">
+      <DependentUpon>BrandAccess.cs</DependentUpon>
+    </Compile>
     <Compile Include="Classes\GeneralPerposeClass.cs" />
     <Compile Include="DBRepairShopDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DBRepairShopDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LocationAccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LocationAccess.Designer.cs">
+      <DependentUpon>LocationAccess.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -69,6 +81,12 @@
     </Compile>
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models_Access.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Models_Access.Designer.cs">
+      <DependentUpon>Models_Access.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -87,11 +105,20 @@
     <EmbeddedResource Include="About.resx">
       <DependentUpon>About.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="BrandAccess.resx">
+      <DependentUpon>BrandAccess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LocationAccess.resx">
+      <DependentUpon>LocationAccess.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Models_Access.resx">
+      <DependentUpon>Models_Access.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

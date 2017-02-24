@@ -16,5 +16,23 @@ namespace Repair_Shop_Studio
         {
             InitializeComponent();
         }
+
+        private void btn_DeviceBrands_Click(object sender, EventArgs e)
+        {
+            BrandAccess brandaccess = new BrandAccess();
+            brandaccess.ShowDialog();
+        }
+
+        private void btn_locations_Click(object sender, EventArgs e)
+        {
+            LocationAccess locationAccess = new LocationAccess();
+            locationAccess.ShowDialog();
+        }
+
+        private void btn_models_Click(object sender, EventArgs e)
+        {
+            Models_Access model_access = new Models_Access();
+            model_access.ShowDialog();
+        }
     }
 }
